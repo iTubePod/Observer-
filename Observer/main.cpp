@@ -7,9 +7,23 @@
 //
 
 #include <iostream>
+#include "Reforma.hpp"
+#include "Televisa.hpp"
+#include "NBCNews.hpp"
+#include "Personofinterest.hpp"
+#include "President.hpp"
+#include "Celebrity.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    Observer* Tv = new Televisa;
+    Observer* Rf = new Reforma;
+    Observer* nb = new NBCNews;
+    std::vector<Observer*> x;
+    x.push_back(Tv);
+    x.push_back(Rf);
+    x.push_back(nb);
+    Personofinterest pena = President("Peña", x);
+    Personofinterest jlo = Celebrity("Jennifer Lopez", x);
+    pena.NewinLife("Contrataca a Trump");
+    jlo.NewinLife("Se casa!");
 }

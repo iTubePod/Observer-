@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192644D61E70040500ACD5B6 /* President.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 192644D41E70040500ACD5B6 /* President.cpp */; };
+		192644D91E7004E800ACD5B6 /* Celebrity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 192644D71E7004E800ACD5B6 /* Celebrity.cpp */; };
 		1960FBA01E6FEDBD006F0D4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1960FB9F1E6FEDBD006F0D4C /* main.cpp */; };
+		1960FBB01E6FEF02006F0D4C /* Reforma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1960FBAE1E6FEF02006F0D4C /* Reforma.cpp */; };
+		1960FBB31E6FEFB1006F0D4C /* Televisa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1960FBB11E6FEFB1006F0D4C /* Televisa.cpp */; };
+		1960FBB61E6FEFCA006F0D4C /* NBCNews.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1960FBB41E6FEFCA006F0D4C /* NBCNews.cpp */; };
+		1960FBBF1E6FF22D006F0D4C /* Personofinterest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1960FBBD1E6FF22D006F0D4C /* Personofinterest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		192644D41E70040500ACD5B6 /* President.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = President.cpp; sourceTree = "<group>"; };
+		192644D51E70040500ACD5B6 /* President.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = President.hpp; sourceTree = "<group>"; };
+		192644D71E7004E800ACD5B6 /* Celebrity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Celebrity.cpp; sourceTree = "<group>"; };
+		192644D81E7004E800ACD5B6 /* Celebrity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Celebrity.hpp; sourceTree = "<group>"; };
 		1960FB9C1E6FEDBD006F0D4C /* Observer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Observer; sourceTree = BUILT_PRODUCTS_DIR; };
 		1960FB9F1E6FEDBD006F0D4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1960FBAC1E6FEE19006F0D4C /* Observer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Observer.hpp; sourceTree = "<group>"; };
+		1960FBAE1E6FEF02006F0D4C /* Reforma.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Reforma.cpp; sourceTree = "<group>"; };
+		1960FBAF1E6FEF02006F0D4C /* Reforma.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Reforma.hpp; sourceTree = "<group>"; };
+		1960FBB11E6FEFB1006F0D4C /* Televisa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Televisa.cpp; sourceTree = "<group>"; };
+		1960FBB21E6FEFB1006F0D4C /* Televisa.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Televisa.hpp; sourceTree = "<group>"; };
+		1960FBB41E6FEFCA006F0D4C /* NBCNews.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NBCNews.cpp; sourceTree = "<group>"; };
+		1960FBB51E6FEFCA006F0D4C /* NBCNews.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NBCNews.hpp; sourceTree = "<group>"; };
+		1960FBBD1E6FF22D006F0D4C /* Personofinterest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Personofinterest.cpp; sourceTree = "<group>"; };
+		1960FBBE1E6FF22D006F0D4C /* Personofinterest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Personofinterest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				1960FB9F1E6FEDBD006F0D4C /* main.cpp */,
+				1960FBAC1E6FEE19006F0D4C /* Observer.hpp */,
+				1960FBAE1E6FEF02006F0D4C /* Reforma.cpp */,
+				1960FBAF1E6FEF02006F0D4C /* Reforma.hpp */,
+				1960FBB11E6FEFB1006F0D4C /* Televisa.cpp */,
+				1960FBB21E6FEFB1006F0D4C /* Televisa.hpp */,
+				1960FBB41E6FEFCA006F0D4C /* NBCNews.cpp */,
+				1960FBB51E6FEFCA006F0D4C /* NBCNews.hpp */,
+				1960FBBD1E6FF22D006F0D4C /* Personofinterest.cpp */,
+				1960FBBE1E6FF22D006F0D4C /* Personofinterest.hpp */,
+				192644D41E70040500ACD5B6 /* President.cpp */,
+				192644D51E70040500ACD5B6 /* President.hpp */,
+				192644D71E7004E800ACD5B6 /* Celebrity.cpp */,
+				192644D81E7004E800ACD5B6 /* Celebrity.hpp */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -120,7 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1960FBB01E6FEF02006F0D4C /* Reforma.cpp in Sources */,
+				1960FBBF1E6FF22D006F0D4C /* Personofinterest.cpp in Sources */,
+				192644D61E70040500ACD5B6 /* President.cpp in Sources */,
+				1960FBB31E6FEFB1006F0D4C /* Televisa.cpp in Sources */,
+				192644D91E7004E800ACD5B6 /* Celebrity.cpp in Sources */,
 				1960FBA01E6FEDBD006F0D4C /* main.cpp in Sources */,
+				1960FBB61E6FEFCA006F0D4C /* NBCNews.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +287,7 @@
 				1960FBA51E6FEDBD006F0D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
